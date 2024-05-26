@@ -1,12 +1,9 @@
-import Image from "next/image"
 
 export default function Home() {
   return (
     <div className="flex justify-center items-center h-screen">
       <div className="flex flex-col items-center">
         <h1 className="text-2xl font-bold margin my-2">Contrato de relacionamento N 01</h1>
-        <Image src="/passeio.jpg" width={500}
-      height={500} alt="Picture of the author" className="w-80 h-96"/>
         <h3 className="mb-2">Dever das partes:</h3>
         <p>Herdeson de Araujo Queiroz Junior</p>
         <p>1. Prometo de contar tudo, mesmo que doa, a fim de manter a verdade, seja boa ou seja ruim.</p>
